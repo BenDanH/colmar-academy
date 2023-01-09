@@ -1,8 +1,13 @@
+h1, h2, h3, h4, p, li {
+    color: rgb(67, 67, 67);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
 header {
     display: flex;
     width: 100%;
     height: 4rem;
-    border: solid red 2px;
     vertical-align: middle;
 }
 
@@ -24,6 +29,7 @@ header nav li {
     align-items: center;
     text-align: center;
     margin-left: 1rem;
+    font-size: 1.25rem;
 }
 
 .sign-in {
@@ -34,9 +40,50 @@ header nav li {
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    font-weight: bold;
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
  .logo-text-grey {
     color: darkgrey;
  }
+
+.body1 {
+    display: flex;
+    background-color: lightgrey;
+}
+
+.body1-img {
+    height: 600px;
+    width: 60%;
+    margin: 1.8rem 1.5rem;
+}
+
+#body1-text-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: 1rem;
+}
+
+#body1-header{
+    width: 75%;
+    font-size: 3rem;
+}
+
+#body1-latin {
+    width: 75%;
+    font-size: 2rem;
+    margin-top: 0;
+    
+}
+
+#body1-button {
+    background-color: rgb(67, 67, 67);;
+    border: 0;
+    color: whitesmoke;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    font-weight: 500;
+    width: 75%;
+    margin-top: 0.5rem;
+}
