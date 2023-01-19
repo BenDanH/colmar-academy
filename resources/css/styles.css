@@ -65,15 +65,17 @@ header nav li {
     margin-left: 1rem;
 }
 
-#body1-header{
+#body1-text{
     width: 75%;
     font-size: 3rem;
+    font-weight: bold;
 }
 
 #body1-latin {
     width: 75%;
     font-size: 2rem;
-    margin-top: 0;
+    font-weight: bold;
+    margin: 2.5rem 0rem;
     
 }
 
@@ -85,5 +87,85 @@ header nav li {
     font-size: 1.5rem;
     font-weight: 500;
     width: 75%;
+    margin-top: 2rem;
+}
+
+.body2 {
+    display: flex;
+}
+
+.body2-left-side {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top: 1rem;
+    border-right: 2px gainsboro solid;
+    padding-bottom: 2rem;
+}
+
+#body2-left-img {
+    width: 93%;
+    margin: 2rem 1.5rem;
+}
+
+.body2-left-text {
+    margin-left: 1.5rem;
+}
+
+.body2-left-text h2 {
+    font-weight: bold;
+} 
+
+#body2-latin {
+    margin-top: 1.5rem;
+    margin-bottom: 3rem;
+    font-size: 1.25rem;
+    font-weight: 500;
+}
+
+.body2-right-side {
+    width: 40%;
+    margin-top: 1.5rem;
+    border-left: 2px gainsboro solid;
+    padding-bottom: 2rem;
+}
+
+.body2-card {
+    display: flex;
+}
+
+.body2-card h3{
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.body2-card-img {
+    height: auto;
+    width: 35%;
+    margin: 1rem;
+}
+
+.body2-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 65%;
+    font-size: 1.1rem;
+}
+
+.RM {
     margin-top: 0.5rem;
+    color: #007bff;
+}
+
+#body2-card-1 {
+    border-bottom: 2px gainsboro solid;
+}
+
+#body2-card-2 {
+    border-top: 2px gainsboro solid;
+}
+
+#body2-card-3 {
+    background-color: lightgray;
 }
