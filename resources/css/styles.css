@@ -180,9 +180,9 @@ header nav li {
 }
 
 #body3-header {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    text-align: center;
+    margin: auto;
+    padding: 0.5rem;
 }
 
 #body3-header h2 {
@@ -228,4 +228,78 @@ header nav li {
 
 .body3-card-text-courses {
     margin: 0.5rem 0;
+}
+
+.body4-header {
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.body4-header h2 {
+    font-weight: 600;
+}
+
+.body4-sections {
+    display: flex;
+}
+
+
+.body4-left-section {
+    width: 60%;
+    margin: 0 2rem;
+}
+
+.body4-left-section-text h2 {
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+.body4-left-section-text p {
+    font-size: 1.15rem;
+    margin-bottom: 2rem;
+}
+
+.body4-vid{
+    width: 100%;
+}
+
+
+.body4-card {
+    display: flex;
+}
+
+.body4-card-img {
+    width: 30%;
+    margin: 1rem;
+}
+
+.body4-card-text {
+    width: 45%;
+    margin: auto;
+    margin-left: 0;
+}
+
+.body4-card-text h3 {
+    font-size: 1.75rem;
+    font-weight: 700;
+}
+
+.body4-card-text p {
+    font-size: 1.25rem;
+}
+
+#body4-card-1 {
+    background-color: lightgray;
+}
+
+footer {
+    display: flex;
+    border-top: 2px solid gainsboro;
+    justify-content: space-between;
+}
+
+footer p {
+    display: inline-block;
+    margin-top: 0.75rem;
+    margin: 1.5rem;
 }
