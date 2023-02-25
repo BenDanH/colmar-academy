@@ -346,10 +346,35 @@ footer p {
         margin: auto;
         margin-bottom: 1.5rem;
     }
+
+    .body2-left-side {
+        display: none;
+    }
+
+    .body2-right-side {
+        width: 100%;
+    }
+
+    .body2-card {
+        flex-direction: column;
+    }
+    
+    .body2-card-img {
+        display: none;
+    }
+
+    .body2-card-img-mobile {
+        width: 90%;
+        margin: 1rem;
+    }
+
+    .body2-card-text {
+        margin-left: 2rem;
+    }
 }
 
 @media only screen and (min-width: 480px) {
-    .hidden {
+    .small-screen {
         display: none;
     }
 }
