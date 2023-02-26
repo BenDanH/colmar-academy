@@ -377,16 +377,25 @@ footer p {
         margin-left: 2rem;
     }
 
+    #body2-card-1 {
+        border: 0;
+    }
+
+    #body2-card-2 {
+        border: 0;
+    }
+
     #body2-card-3 {
         background-color: white;
     }
 
     .body3 {
         background-color: white;
+        border: 1px solid gainsboro;
     }
 
     #body3-header {
-        border-top: 2px solid gainsboro;
+        border-top: 1px solid gainsboro;
     }
 
     #body3-header h2 {
@@ -416,6 +425,34 @@ footer p {
         cursor: pointer;
     }
 
+    .body4-left-section {
+        margin: 0;
+        width: 100%;
+    }
+
+    .body4-left-section-text {
+        display: none;
+    }
+
+    .body4-right-section {
+        display: none;
+    }
+
+    .body4-vid {
+        margin-bottom: 2rem;
+    }
+
+    footer {
+        border: 0;
+    }
+
+    .footer-start {
+        margin: 1rem 0;
+    }
+
+    .footer-end {
+        display: none;
+    }
 }
 
 @media only screen and (min-width: 480px) {
