@@ -193,8 +193,7 @@ header nav li {
 #body3-card-container {
     display: flex;
     flex-wrap: wrap;
-    margin: 0 5rem;
-    padding-bottom: 4rem;
+    padding-bottom: 2rem;
     justify-content: center;
 }
 
@@ -236,6 +235,7 @@ header nav li {
 
 .body4-header h2 {
     font-weight: 600;
+    font-size: 2.5rem;
 }
 
 .body4-sections {
@@ -318,6 +318,10 @@ footer p {
         display: none;
     }
 
+    body {
+        margin-right: 0;
+    }
+
     .body1 {
         flex-direction: column;
     }
@@ -345,6 +349,7 @@ footer p {
     #body1-button {
         margin: auto;
         margin-bottom: 1.5rem;
+        cursor: pointer;
     }
 
     .body2-left-side {
@@ -371,6 +376,46 @@ footer p {
     .body2-card-text {
         margin-left: 2rem;
     }
+
+    #body2-card-3 {
+        background-color: white;
+    }
+
+    .body3 {
+        background-color: white;
+    }
+
+    #body3-header {
+        border-top: 2px solid gainsboro;
+    }
+
+    #body3-header h2 {
+        margin: 2rem 0;
+    }
+
+    .body3-card-container {
+        margin: 0 0;
+    }
+
+    .body3-card-img {
+        display: none;
+    }
+
+    .body3-card-text {
+        display: none;
+    }
+
+    .body3-card {
+        margin: 0;
+    }
+
+    .body3-card h2 {
+        background-color: gainsboro;
+        width: 100%;
+        padding: 1.5rem;
+        cursor: pointer;
+    }
+
 }
 
 @media only screen and (min-width: 480px) {
